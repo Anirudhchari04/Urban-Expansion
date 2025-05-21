@@ -80,7 +80,7 @@ Pixels are classified as **urban** or **non-urban** using either:
 - ESA's label data directly, or
 - Predicted masks from segmentation models
 
-5 **Change Detection**  
+5. **Change Detection**  
 Urban masks from different years are compared to:
 - Identify newly urbanized regions
 - Quantify area change (e.g., total urban area in hectares or km²)
@@ -102,4 +102,4 @@ Urban masks from different years are compared to:
 ---
 
 
-
+"NOTE: Extract Geotiff files for the region of interest and then use the sent2multibandsplitter.ipynb file to extract the bands."
